@@ -68,6 +68,7 @@ footer {
   background: #00669f;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #fff9f9;
+
 }
 
 .testeo3 {
@@ -85,11 +86,11 @@ footer {
 }
 
 .perfiles {
-  display: flex;
   position: absolute;
-  border-radius: 50px;
-  top: 400px;
-  left: 150px;
+  border-radius: 70px;
+  top: -70px;
+  left: 85px;
+  z-index: 300;
 }
 
 p {
@@ -104,6 +105,7 @@ p {
   background-color: #f3f3f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   bottom: -267px;
+  z-index: 400;
 
   font-family: "Roboto";
   font-style: normal;
@@ -118,4 +120,12 @@ p {
   position: absolute;
   padding-left: 20px;
   padding-top: 15px;
+}
+
+.descripcion {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
 }
