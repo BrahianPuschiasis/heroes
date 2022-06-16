@@ -174,7 +174,7 @@ p {
   footer {
     position: absolute;
     padding: 10px 10px 0px 10px;
-    bottom: -200vh;
+    bottom: -250vh;
     width: 100%;
    
  
@@ -182,14 +182,22 @@ p {
 }
 
 /* adaptacion a tablets */
-@media (max-width: 890px){
+@media (max-width: 890px) and (min-width: 1020px){
   section {
     display: flex;
     flex-direction: column;
     height: 250vh;
     align-items: center;
-    align-content: space-around;
+    align-content:space-between;
     padding-top: 0px;
     padding-bottom: 500px;
+  }
+  footer {
+    position: absolute;
+    padding: 10px 10px 0px 10px;
+    bottom: -250vh;
+    width: 100%;
+   
+ 
   }
 }
