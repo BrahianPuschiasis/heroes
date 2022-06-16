@@ -162,7 +162,7 @@ p {
     flex-direction: column;
     margin:0;
     padding: 0;
-    height:100vh;
+    height:200vh;
     align-items: center;
     align-content: space-around;
   }
