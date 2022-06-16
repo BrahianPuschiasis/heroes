@@ -160,8 +160,6 @@ p {
 @media (max-width: 768px) {
   section {
     flex-direction: column;
-    margin:0;
-    padding: 0;
     height:200vh;
     align-items: center;
     align-content: space-around;
