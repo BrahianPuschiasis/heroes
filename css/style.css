@@ -157,6 +157,8 @@ p {
   top: 12px;
 }
 
+
+/* adaptacion a celulares */
 @media (max-width: 768px) {
   section {
     display: flex;
@@ -170,10 +172,24 @@ p {
 
 
   footer {
-    position: fixed;
+    position: absolute;
     padding: 10px 10px 0px 10px;
-    bottom: 0;
+    bottom: -250vh;
     width: 100%;
+   
  
+  }
+}
+
+/* adaptacion a tablets */
+@media (max-width: 890px){
+  section {
+    display: flex;
+    flex-direction: column;
+    height: 250vh;
+    align-items: center;
+    align-content: space-around;
+    padding-top: 0px;
+    padding-bottom: 500px;
   }
 }
