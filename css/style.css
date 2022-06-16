@@ -163,5 +163,10 @@ p {
     height:200vh;
     align-items: center;
     align-content: space-around;
+    padding-top: 0px;
+    padding-bottom: 500px;
+  }
+  footer{
+    bottom: 0;
   }
 }
