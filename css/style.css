@@ -157,16 +157,28 @@ p {
   top: 12px;
 }
 
+
+
+
 @media (max-width: 768px) {
   section {
+    display: flex;
     flex-direction: column;
-    height:200vh;
+    height: 200vh;
     align-items: center;
     align-content: space-around;
     padding-top: 0px;
     padding-bottom: 500px;
   }
-  footer{
-    bottom: 0;
-  }
+
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
+  
 }
