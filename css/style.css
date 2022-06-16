@@ -157,9 +157,6 @@ p {
   top: 12px;
 }
 
-
-
-
 @media (max-width: 768px) {
   section {
     display: flex;
@@ -171,14 +168,12 @@ p {
     padding-bottom: 500px;
   }
 
-  body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
-footer{
-    margin-top: auto;
-}
-  
+  footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+ 
+  }
 }
