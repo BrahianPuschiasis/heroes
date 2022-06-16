@@ -182,8 +182,8 @@ p {
 }
 
 
-/* adaptacion a tablets */
-@media (max-width: 890px){
+/* adaptacion a tablets 
+@media (max-width: 1000px){
   section {
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -205,4 +205,4 @@ p {
    
  
   }
-}
+}*/
