@@ -182,6 +182,13 @@ p {
 }
 
 
+.login{
+position: absolute;
+top: 130px;
+
+}
+
+
 /* adaptacion a tablets 
 @media (max-width: 1000px){
   section {
