@@ -177,9 +177,17 @@ p {
   }
 }
 
-.login {
+/*.login {
   position: absolute;
   top: 130px;
+}
+*/
+
+.menu{
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-end;
+
 }
 
 /* adaptacion a tablets 
