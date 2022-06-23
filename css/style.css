@@ -157,7 +157,6 @@ p {
   top: 12px;
 }
 
-
 /* adaptacion a celulares */
 @media (max-width: 768px) {
   section {
@@ -170,26 +169,18 @@ p {
     padding-bottom: 500px;
   }
 
-
   footer {
     position: absolute;
     padding: 10px 10px 0px 10px;
     bottom: -250vh;
     width: 100%;
-   
- 
   }
 }
 
-
-.login{
-position: absolute;
-top: 130px;
-
+.login {
+  position: absolute;
+  top: 130px;
 }
-
-
-
 
 /* adaptacion a tablets 
 @media (max-width: 1000px){
